@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/background.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.formulario{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 13px;
+
+}
+
+form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+form h2{
+    text-transform: uppercase;
+    margin: 15px;
+    font-size: 19px;
+    color: #ea1357;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    color: #ea1357;
+}
+.name label{
+    color: #ea1357;
+    margin-bottom: 3px;
+}
+.name input{
+    padding: 3px;
+    border:none;
+    border-bottom: 2px solid #ea1357;
+    border-left: 2px solid #ea13571f;
+    background-color: transparent ;
+    margin-bottom: 8px ;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    color: #ea1357;
+}
+
+.email label{
+    color: #ea1357;
+    margin-bottom: 3px;
+}
+.email input{
+    padding: 3px;
+    border:none;
+    border-bottom: 2px solid #ea1357;
+    border-left: 2px solid #ea13571f;
+    background-color: transparent ;
+    margin-bottom: 8px ;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao label{
+    color: #ea1357;
+    margin-bottom: 3px;
+}
+
+.descricao textarea{
+    background-color: transparent;
+    border: 2px solid  #ea1357;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.modulo {
+    display:flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.modulo label{
+    color: #ea1357;
+}
+
+.modulo select{
+    background-color: transparent;
+    border: 2px solid #ea1357;
+    padding: 3px;
+    color: #ea1357;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.senha {
+    display: flex;
+    flex-direction: column;
+}
+.senha label{
+    color: #ea1357;
+}
+
+.senha input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ea1357;
+    margin-bottom: 8px;
+}
+
+.senhacheck {
+    display: flex;
+    flex-direction: column;
+}
+.senhacheck label{
+    color: #ea1357;
+}
+
+.senhacheck input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ea1357;
+    margin-bottom: 8px;
+}
+.radio{
+    display: flex;
+    gap: 6px;
+}
+
+.radio p {
+    color: #ccc;
+}
+
+.radio label{
+    color: #ccc;
+}
+
+.btn input{
+    background-color: #ea1357;
+    border: 2px solid #ea1357;
+    cursor: pointer;
+    padding: 6px;
+    width: 180px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    transition: all .3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn input:hover{
+    background-color: transparent;
+    border: 2px solid #ea1357;
+    color: #ea1357;
+    font-weight: bold;
+    text-transform: uppercase;
+}

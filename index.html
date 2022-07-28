@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+   <main>
+    <section class="formulario">
+        <form>
+            <h2>-cadastro-</h2>
+
+            <div class="name">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" aria-placeholder="digite seu nome..." required>
+            </div><!--name-->
+
+            <div class="email">
+                <label for="email">E-mail:</label>
+                <input type="email" name="Email" id="Email" aria-placeholder="digite seu E-mail..." required>
+            </div><!--email-->
+
+            <div class="descricao">
+                <label for="desc">Descrição</label>
+                <textarea name="desc" id="desc" cols="15" rows="5"></textarea required>
+            </div>
+
+            <div class="modulo">
+                <label for="modulos" >Modulos</label>
+                <select id="modulos" name="modulos" required>
+                    <option value="">Escolher modulo</option>
+                    <option value="m1">m1</option>
+                    <option value="m2">m2</option>
+                    <option value="m3">m3</option>
+                    <option value="m4">m4</option>
+                    <option value="m5">m5</option>
+                    <option value="m6">m6</option>
+                </select>
+            </div><!--modulo-->
+            
+            <div class="senha">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </div><!--senha-->
+
+            <div class="senhacheck">
+                <label for="senha">Confirmar senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </div><!--senhacheck-->
+
+            <div class="radio">
+                <p>deseja receber novidades em seu e-mail?</p>
+                <label for="sim">sim</label>
+                <input type="radio" name="select" id="sim">
+                <label for="nao">Não</label>
+                <input type="radio" name="select" id="nao">
+            </div><!--radio-->
+
+            <div class="btn">
+                <input type="submit" value="cadastrar">
+            </div>
+
+
+        </form>
+    </section>
+   </main>
+
+
+</body>
+</html>
